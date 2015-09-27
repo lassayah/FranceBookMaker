@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<TextView    
+    android:id="@+id/pointsRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="@dimen/dimText" />
+    
+<TextView
+        android:id="@+id/pointsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="@dimen/dimLargeText"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/pointsRank" />
+<TextView 
+    android:id="@+id/pointsScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:paddingRight="20dp"
+        android:gravity="center|right"
+        android:textSize="@dimen/dimText"
+        android:layout_toRightOf="@+id/pointsName" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">BrazilBookmaker</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_top4">Top 4</string>
+    <string name="action_parier">Parier</string>
+    <string name="action_points">Points</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="loginButton">Se Connecter</string>
+	<string name="loginTitle">Pseudo : </string>
+	<string name="password">Mot de passe : </string>
+	<string name="bienvenue">Bienvenue</string>
+	<string name="connect">Connectez-vous</string>
+	<string name="connectText">Mêmes identifiants que sur le site</string>
+	<string name="button_top4">Choisissez votre Top 4</string>
+	<string name="button_matchs">Pariez sur les Matchs</string>
+	<string name="button_points">Consultez vos Points</string>
+	<string name="settingsTextNotif5mn">Alerte 5 mn avant le début de chaque match (voyageurs ou insomniaques).</string>
+	<string name="settingsTextNotif20h">Alerte à 20 h, heure de Paris, avant le début de chaque match.</string>
+	<string name="top4Title">Top 4</string>
+	<string name="betTitle">Paris sur les matchs</string>
+	<string name="pointText">Classement et Points</string>
+	<string name="betOpen">Paris ouverts</string>
+	<string name="Parier">Parier</string>
+	<string name="Infomatch">infos</string>
+	<string name="vs">vs</string>
+	<string name="descArrow">Paris Ouverts</string>
+	<string name="descFlag">Drapeau</string>
+	<string name="descInfo">Info</string>
+	<string name="yourbet">Brésil</string>
+</resources>
