@@ -17,11 +17,12 @@
         android:text="@string/pointText"
         android:textColor="#ffffff"
         android:textSize="@dimen/dimTitle" />
- 
-    <ListView
-      android:id="@+id/listPoints"
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content" >
-    </ListView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listPoints"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 </LinearLayout>
