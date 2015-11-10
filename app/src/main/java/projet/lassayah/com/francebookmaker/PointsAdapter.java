@@ -59,7 +59,7 @@ public class PointsAdapter extends RecyclerView.Adapter<PointsAdapter.ViewHolder
         // - replace the contents of the view with that element
        Points p = points.get(position);
         holder.rankPoints.setText(p.getRank());
-        holder.scorePoints.setText(p.getPoints());
+        holder.scorePoints.setText(String.valueOf(p.getPoints()));
         holder.nomPoints.setText(p.getNom());
 
     }

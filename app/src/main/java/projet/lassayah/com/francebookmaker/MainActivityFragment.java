@@ -32,6 +32,8 @@ public class MainActivityFragment extends Fragment {
     private View v;
     private Button loginButton;
     private Button cheatButton;
+    private EditText loginEditText;
+    private EditText passwordEditText;
 
     public MainActivityFragment() {
     }
@@ -43,6 +45,8 @@ public class MainActivityFragment extends Fragment {
         // 1. Instantiate an AlertDialog.Builder with its constructor
         loginButton = (Button)v.findViewById(R.id.loginButton);
         cheatButton = (Button)v.findViewById(R.id.cheatButton);
+        loginEditText = (EditText)v.findViewById(R.id.loginEdit);
+        passwordEditText = (EditText)v.findViewById(R.id.passwordEdit);
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
         // 2. Chain together various setter methods to set the dialog characteristics
@@ -59,8 +63,8 @@ public class MainActivityFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 RequestParams params = new RequestParams();
-                params.add("login", "Laurene");
-                params.add("password", "moqh17e");
+                params.add("login", loginEditText.getText().toString());
+                params.add("password", passwordEditText.getText().toString());
                 AsyncHttpClient client = new AsyncHttpClient();
                 client.get("http://assayah.com/Brazil/webservices/login.php", params, new JsonHttpResponseHandler() {
                     // When the response returned by REST has Http response code '200'
@@ -125,7 +129,6 @@ public class MainActivityFragment extends Fragment {
 
                         }
                     }
-
 
                 });
             }
