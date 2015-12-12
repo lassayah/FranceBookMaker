@@ -17,9 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:text="@string/bienvenue"
-        android:textColor="#ffffff"
-        android:textSize="@dimen/dimTitle"
-        android:elevation="5dp"/>
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_below="@+id/login"
@@ -29,8 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:text="@string/connect"
-        android:textColor="#ffffff"
-        android:textSize="@dimen/dimTitle" />
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_below="@+id/connectText"
@@ -40,8 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="@string/connectText"
-        android:textColor="#ffffff"
-        android:textSize="@dimen/dimTinyText" />
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_below="@+id/connectHelp"
@@ -51,19 +47,17 @@
         android:layout_marginBottom="20dp"
         android:text="@string/loginTitle"
         android:textColor="#ffffff"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="@dimen/dimText" />
+        android:paddingTop="40dp" />
     <EditText
+        android:layout_toRightOf="@id/loginText"
         android:layout_below="@+id/connectHelp"
-        android:layout_toRightOf="@+id/loginText"
         android:id="@+id/loginEdit"
         android:inputType="text"
         android:textColor="#ffffff"
-        android:ems="10"
-        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="@dimen/dimText" />
+        android:paddingTop="@dimen/activity_vertical_margin" />
 
     <TextView
         android:layout_below="@+id/loginText"
@@ -72,33 +66,29 @@
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
         android:text="@string/password"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="@dimen/dimText" />
+        android:paddingTop="@dimen/activity_vertical_margin" />
     <EditText
+        android:layout_toRightOf="@id/passwordText"
         android:layout_below="@+id/loginText"
-        android:layout_toRightOf="@+id/passwordText"
         android:id="@+id/passwordEdit"
         android:inputType="textPassword"
-        android:ems="6"
-        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="@dimen/dimText" />
+        android:paddingTop="@dimen/activity_vertical_margin" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/loginButton"
-        android:layout_below="@+id/passwordText"
+        android:layout_below="@+id/passwordEdit"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="40dp"
         android:text="@string/loginButton"
         android:textColor="#ffffff"
-        android:textSize="@dimen/dimText"
         android:padding="10dip"
-        android:elevation="50dp"
         android:background="@drawable/rounded_edittext" />
 
     <Button
@@ -111,7 +101,6 @@
         android:layout_marginTop="40dp"
         android:text="@string/loginButton"
         android:textColor="#ffffff"
-        android:textSize="@dimen/dimText"
         android:padding="10dip"
         android:background="@drawable/rounded_edittext" />
 

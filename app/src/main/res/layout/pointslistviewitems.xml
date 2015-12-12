@@ -9,8 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:textSize="@dimen/dimText" />
+        android:layout_marginBottom="20dp" />
     
 <TextView
         android:id="@+id/pointsName"
@@ -19,7 +18,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="40dp"
-        android:textSize="@dimen/dimLargeText"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/pointsRank" />
 <TextView 
@@ -31,7 +29,6 @@
         android:layout_marginLeft="40dp"
         android:paddingRight="20dp"
         android:gravity="center|right"
-        android:textSize="@dimen/dimText"
         android:layout_toRightOf="@+id/pointsName" />
 
 </RelativeLayout>

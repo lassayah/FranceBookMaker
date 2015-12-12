@@ -10,7 +10,7 @@
 	<string name="loginButton">Se Connecter</string>
 	<string name="loginTitle">Pseudo : </string>
 	<string name="password">Mot de passe : </string>
-	<string name="bienvenue">Bienvenue</string>
+	<string name="bienvenue">Bienvenue sur EuroBookmaker</string>
 	<string name="connect">Connectez-vous</string>
 	<string name="connectText">Mêmes identifiants que sur le site</string>
 	<string name="button_top4">Choisissez votre Top 4</string>
