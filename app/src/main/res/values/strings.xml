@@ -16,8 +16,8 @@
 	<string name="button_top4">Choisissez votre Top 4</string>
 	<string name="button_matchs">Pariez sur les Matchs</string>
 	<string name="button_points">Consultez vos Points</string>
-	<string name="settingsTextNotif5mn">Alerte 5 mn avant le début de chaque match (voyageurs ou insomniaques).</string>
-	<string name="settingsTextNotif20h">Alerte à 20 h, heure de Paris, avant le début de chaque match.</string>
+	<string name="settingsTextNotif5mn">Alerte 5 mn avant le début de chaque match.</string>
+	<string name="settingsTextNotif20h">Alerte à 14 h, heure de Paris, les jours de matchs.</string>
 	<string name="top4Title">Top 4</string>
 	<string name="betTitle">Paris sur les matchs</string>
 	<string name="pointText">Classement et Points</string>

@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:text="@string/bienvenue"
+        android:textSize="@dimen/dimLargeText"
         android:textColor="#ffffff" />
 
     <TextView
@@ -27,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:text="@string/connect"
+        android:textSize="@dimen/dimLargeText"
         android:textColor="#ffffff" />
 
     <TextView
@@ -55,9 +57,10 @@
         android:inputType="text"
         android:textColor="#ffffff"
         android:layout_weight="1"
-        android:layout_width="0dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/activity_vertical_margin" />
+        android:paddingTop="40dp"
+        android:paddingLeft="15dp" />
 
     <TextView
         android:layout_below="@+id/loginText"
@@ -73,10 +76,11 @@
         android:id="@+id/passwordEdit"
         android:inputType="textPassword"
         android:layout_weight="1"
-        android:layout_width="0dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
-        android:paddingTop="@dimen/activity_vertical_margin" />
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="15dp" />
 
     <Button
         android:layout_width="wrap_content"

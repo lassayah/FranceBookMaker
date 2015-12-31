@@ -15,8 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="@string/pointText"
-        android:textColor="#ffffff"
-        android:textSize="@dimen/dimTitle" />
+        android:textSize="@dimen/dimLargeText"
+        android:textColor="#ffffff" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/listPoints"

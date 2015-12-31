@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bleu_marine">#002661</color>
+    <color name="rouge">#e11d25</color>
+    <color name="presque_blanc">#f7f9fa</color>
+    <color name="blanc">#ffffff</color>
+    <color name="gris">#b8c2c7</color>
+    <color name="bleu_clair">#32adde</color>
+    <color name="bleu_moyen">#206cac</color>
+    <color name="rouge_fonce">#8c2525</color>
+
+
+</resources>
